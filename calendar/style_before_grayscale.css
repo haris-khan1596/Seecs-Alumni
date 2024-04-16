@@ -1,0 +1,139 @@
+/*
+ +---------------------------------------------------------+
+ + Calendar Script by Midgard (bahadir@eggdrop.gen.tr)     +
+ + It's a free software                                    +
+ +---------------------------------------------------------+
+ + http://www.eggdrop.gen.tr                               +
+ +---------------------------------------------------------+
+ */
+
+.mainTable {
+	background-color: #E1E1E1;
+	border: 1px solid #5683B6;
+	width: 160px;
+	height:146px;
+}
+
+.monthRow {
+	background-image: url("images/monthB.gif");
+	background-color: #5683B6;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: Bold;
+	color: #FFFFFF;
+	height: 10px;
+}
+
+.monthRow a:link, .monthRow a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.monthRow a:hover {
+	color: #FFFFFF;
+}
+
+.dayNamesText {
+	background-image: url("images/dayBg.gif");
+    font-family: Tahoma, Verdana, Arial, sans-serif; 
+	font-size: 10px; 
+	font-weight: Bold; 
+	color: #333333;
+	height: 15px;
+	width: 25px;
+}
+
+.rows {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #433D27;
+    line-height: 12pt;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.sOther {
+    background-color: #EEEEEE;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #BBBBBB;
+}
+
+.popupDate {
+    font-family: Geneva, Verdana, Arial, sans-serif; 
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #5683B6;
+	padding: 4px;
+	border: 1px solid #EAEAEA;
+	border-bottom: 0px solid #EAEAEA;
+}
+
+.popupDate2 {
+    font-family: Geneva, Verdana, Arial, sans-serif; 
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #336699;
+	padding: 4px;
+}
+
+.popupClose {
+    font-family: Geneva, Verdana, Arial, sans-serif; 
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: right;
+	background-color: #336699;
+}
+
+.popupEventTitle {
+	font-family: Geneva, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	padding: 2px;
+	vertical-align: middle;
+	border: 1px solid #EAEAEA;
+	border-bottom: 0px solid #EAEAEA;
+}
+
+.s23 {
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.categoryDiv {
+	background-color: #FCF5EF;
+	padding: 4px;
+	border: 1px solid #EAEAEA;
+	border-bottom: 0px solid #EAEAEA;
+}
+
+.categoryName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #666666;
+}
+
+.categorySelection {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #777777;
+}
+
+.popupEventDescription {
+    font-family: Geneva, Verdana, Arial, sans-serif; 
+	font-size: 10px; 
+	color: #000000;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	padding: 4px;
+}

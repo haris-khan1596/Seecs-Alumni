@@ -1,0 +1,284 @@
+/*
+ +---------------------------------------------------------+
+ + Calendar Script by Midgard (bahadir@eggdrop.gen.tr)     +
+ + It's a free software                                    +
+ +---------------------------------------------------------+
+ + http://www.eggdrop.gen.tr                               +
+ +---------------------------------------------------------+
+ */
+
+body
+{
+	background-color: #F3F3F3;
+	color: #000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 11px;
+	margin: 2ex;
+	padding: 0px;
+	text-align: center;
+}
+
+a:link, a:visited
+{
+	color: #336699;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #336699;
+	text-decoration: underline;
+}
+
+table, tr, td
+{
+	color: #000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 11px;
+}
+
+.orta
+{
+	padding: 10px;
+	border: 1px solid #5D789C;
+	background-color: #FFF;
+}
+
+.dis
+{
+	width: 500px;
+	background-color: #ACBFD9;
+	border: 1px solid #5D789C;
+	padding: 8px;
+}
+
+.desctext
+{
+	color: gray;
+}
+
+.tablerow1 img,
+.tablerow2 img,
+.tablerow3 img
+{
+	vertical-align: middle;
+	border: 0px;
+}
+
+.tablerow1
+{
+	background-color: #EAEDF0;
+	padding: 6px;
+	border-bottom: 1px solid #C1BEBE;
+	border-right: 1px solid #C1BEBE;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+.TopNavy
+{
+	background-color: #EEEEEE;
+	background-image: url('images/off-bg.jpg');
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Trebuchet MS, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	vertical-align: middle;
+	height: 21px;
+	border: 1px solid #FFFFFF;
+	font-weight: normal;
+}
+
+.TopNavy a:link, .TopNavy a:visited
+{
+	font-family: Trebuchet MS, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	color: #336699;
+	text-decoration: none;
+}
+
+.TopNavy a:hover
+{
+	font-family: Trebuchet MS, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.Menu_Norm
+{
+	background-color: #EEEEEE;
+	background-image: url('images/off-bg.jpg');
+	background-repeat: repeat-x;
+	color: #888888;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	padding: 0px;
+	vertical-align: middle;
+	height: 21px;
+	border: 1px solid #FFFFFF;
+	cursor: hand;
+	font-weight: normal;
+}
+
+.Menu_Over
+{
+	background-color: #EEEEEE;
+	background-image: url('images/on-bg.jpg');
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	padding: 0px;
+	vertical-align: middle;
+	height: 21px;
+	border: 1px solid #FFFFFF;
+	cursor: hand;
+	font-weight: normal;
+}
+
+.tableheader
+{
+	font-size: 11px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #FFF;
+	padding: 5px;
+	background-image: url('images/table_title_gradient.gif');
+	background-repeat: repeat-x;
+	background-color: #3363A1;
+}
+
+.tableheader a:link, .tableheader a:visited
+{
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.tableheader a:hover
+{
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+.tableborder
+{
+	border: 1px solid #5D789C;
+}
+
+.tablerow1
+{
+	background-color: #EAEDF0;
+	padding: 6px;
+	border-bottom: 1px solid #C1BEBE;
+	border-right: 1px solid #C1BEBE;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+.tablerow2
+{
+	background-color: #F1F1F1;
+	padding: 6px;
+	border-bottom: 1px solid #C1BEBE;
+	border-right: 1px solid #C1BEBE;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+.tablerow3
+{
+	background-color: #D1DCEB;
+	padding: 6px;
+	border-bottom: 1px solid #D1DCEB;
+	border-right: 1px solid #D1DCEB;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+.tablerow4
+{
+	background-color: #C0CBDA;
+	padding: 6px;
+	border-bottom: 1px solid #D1DCEB;
+	border-right: 1px solid #D1DCEB;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+.main-area-for-section
+{
+	background-color: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	padding: 8px;
+}
+
+.text-input
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 10px;
+	width: 175px;
+	height: 14px;
+	padding: 0px;
+}
+
+.password-input
+{
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	width: 175px;
+	height: 14px;
+	padding: 0px;
+	color: #FF0000;
+}
+
+.submit-input
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 11px;
+	padding: 4px;
+	border: 1px;
+	background-color: transparent;
+}
+
+form
+{
+	margin: 0px;
+}
+
+.text-input2
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 10px;
+	height: 14px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.my-select
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 10px;
+	height: 14px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.file-input
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 10px;
+	width: 235px;
+	height: 20px;
+	padding: 2px;
+}
+
+.text-area
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 10px;
+	width: 300px;
+	height: 100px;
+	padding: 2px;
+}

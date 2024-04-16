@@ -1,0 +1,218 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	font-weight: normal;
+}
+
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color:#666666;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	text-decoration:none;
+	color:666666;
+}
+a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight:bold;
+	font-variant: normal;
+	color: #999999;
+	text-decoration:none;
+}
+
+.year {
+	border-style: outset;
+	border-width: 0px;
+	background-color: white;
+	text-align: center;
+}
+.month {
+	border-style: none;
+	background-color: white;
+	text-align: center;
+	
+}
+.yearname {
+	text-align: center;
+	font-size: 18px;
+	font-weight:bold;
+	
+}
+/* top month year caption */
+.monthname {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color:#993333;
+	border-style: outset;
+	border-width:0px
+}
+.dayname td {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	background-color:#CAE4FF;
+	color: #000000;
+	border-style:outset;
+	border-width:0px;
+}
+.yearnavigation {
+	font-size: 12px;
+}
+.datepicker {
+	background-color:white;
+}
+.datepickerform {
+	margin:0px;
+}
+.monthnavigation {
+	font-family: Tahoma, Arial, sans-serif;
+}
+.monthpicker {
+	font-size: 10px;
+	background-color: #eeeeee;
+}
+.yearpicker {
+	font-size: 11px;
+	background-color: #eeeeee;
+}
+.pickerbutton {
+	font-size: 10px;
+	background-color: #eeeeee;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+}
+.nomonthday {
+	height:80px;
+	width:85px;
+}
+.monthday {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: white;
+	color: #384955;
+	height:80px;
+	width:85px;
+	vertical-align:top;
+	text-align:right;
+}
+.today {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	background-color:#CAE4FF;
+	color: #ffffff;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+	text-align:right;
+}
+.selectedday {
+	background-color:'white';
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+	text-align:right;
+
+}
+.sunday {
+	text-align: center;
+	font-size: 11px;
+	font-weight:normal;
+	color: #667171;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+	text-align:right;
+}
+.sunday a {
+	color: #667171;
+	font-weight:normal;
+	text-align:right;
+}
+.saturday {
+	text-align: center;
+	font-size: 11px;
+	font-weight:normal;
+	color: #667171;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+	text-align:right;
+}
+.saturday a {
+	color: #667171;
+	text-align:right;
+}
+.event {
+	text-align: center;
+	font-size: 11px;
+	font-weight:normal;
+	color: red;
+	background-color:#FFFFCC;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+	text-align:right;
+	
+}
+.event a {
+	background-color:#FFFFCC;
+	color: #A5B2CE;
+}
+.selectedevent {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	background-color: #FFDDDD;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+	text-align:right;
+}
+.selectedevent a {
+	color: white;
+	background-color:##FFDDDD;
+}
+.todayevent {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	background-color: #FFFFCC;
+	height:80px;
+	width:85px;
+	vertical-align: top;
+}
+.todayevent a {
+	background-color: #FFFFCC;
+	color: red;
+}
+.eventcontent {
+	font-size: 10px;
+	border-style: outset;
+	border-width: 0px;
+	width: 100%;
+}

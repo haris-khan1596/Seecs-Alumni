@@ -1,0 +1,5 @@
+[01-Dec-2022 09:40:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/alumnise/public_html/control/dbcode.php:18
+Stack trace:
+#0 /home/alumnise/public_html/upload/upload.php(5): include()
+#1 {main}
+  thrown in /home/alumnise/public_html/control/dbcode.php on line 18

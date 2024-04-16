@@ -1,0 +1,52 @@
+function ajax_user_chk(regno)
+{
+var xmlHttp;
+try
+  {  // Firefox, Opera 8.0+, Safari  
+  xmlHttp=new XMLHttpRequest();  
+  }
+catch (e)  {  // Internet Explorer  
+  try
+  {    xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");    }
+  catch (e)    {    
+  try
+  { xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");      }
+  catch (e)
+  {
+    alert("Your browser does not support AJAX!");      return false;     
+   }    
+   }  
+   }
+	  
+
+xmlHttp.onreadystatechange=function()
+{
+//document.write(xmlHttp.readyState);
+ if(xmlHttp.readyState==1)
+ {
+ //document.getElementById("div_ldap_user_chk").innerHTML="<b>Checking....</b>";
+ }
+    if(xmlHttp.readyState==4)
+	{	
+		var str=xmlHttp.responseText;
+		var arr=str.split(',');
+		
+		document.getElementById("div_reg_user_chk").innerHTML=arr[0];
+		document.getElementById("reg_user_chk").value=arr[0];
+		
+		
+		if(arr[1]==undefined)
+		{document.getElementById("txtname").value="";}
+		else
+		{document.getElementById("txtname").value=arr[1];}
+		
+	}
+//document.write(xmlHttp.responseText);
+//     return xmlHttp.responseText;
+
+}
+var str;
+str="reg_user_chk.php?regno=" + regno;
+  xmlHttp.open("GET",str,true);
+  xmlHttp.send(null);  
+  }

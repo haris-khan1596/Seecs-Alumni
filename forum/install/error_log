@@ -1,0 +1,12 @@
+[01-Dec-2022 09:40:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/alumnise/public_html/forum/install/install.php:226
+Stack trace:
+#0 {main}
+  thrown in /home/alumnise/public_html/forum/install/install.php on line 226
+[16-Dec-2022 09:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/alumnise/public_html/forum/install/install.php:226
+Stack trace:
+#0 {main}
+  thrown in /home/alumnise/public_html/forum/install/install.php on line 226
+[16-Dec-2022 09:51:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set_magic_quotes_runtime() in /home/alumnise/public_html/forum/install/install.php:226
+Stack trace:
+#0 {main}
+  thrown in /home/alumnise/public_html/forum/install/install.php on line 226
